@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 1em;
+}
+
+.logo {
+    max-width: 20em;
+}
+
+ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
