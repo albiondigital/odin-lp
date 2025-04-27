@@ -34,3 +34,7 @@ li {
     padding: 20px;
     flex: 1;
 }
+
+img {
+    max-width: 50vw;
+}
