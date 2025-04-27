@@ -25,12 +25,12 @@ ul {
 }
 
 li {
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
 a {
-    color: #e5e7eb;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ a:focus {
     background-color: #3882F6;
     border: none;
     border-radius: 6px;
-    color: white;
+    color: #E5E7EB;
 }
 
 .hero button:hover,
@@ -114,9 +114,13 @@ img {
     margin: 20px;
 }
 
+.services {
+    padding: 4em 0 6em;
+}
+
 .services h2 {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 1em;
 }
 
 .services .cards {
@@ -138,13 +142,13 @@ img {
 .services .blue-border {
     height: 100px;
     width: 100px;
-    border: 2px solid blue;
+    border: 2px solid #3882f6;
     border-radius: 6px;
 }
 
 .section:has(.quote) {
     background-color: #e5e7eb;
-    padding: 0 0 3em;
+    padding: 2em 0 6em;
 }
 
 .quote h2 {
@@ -154,23 +158,23 @@ img {
 .quote blockquote {
     max-width: 50ch;
     margin: auto;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 200;
 }
 
 .quote cite {
     display: flex;
     justify-content: flex-end;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .cta {
-    margin: 4em auto;
+    margin: 6em auto;
     padding: 2em;
     background-color: #3882f6;
     border-radius: 6px;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,9 +195,16 @@ img {
     font-weight: bold;
     padding: 8px 36px;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #E5E7EB;
     border-radius: 6px;
-    color: white;
+    color: #E5E7EB;
+}
+
+.cta button:hover,
+.cta button:focus {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    transition: 400ms ease all;
 }
 
 footer {
@@ -202,5 +213,5 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    color: white;
+    color: #F9FAF8;
 }
