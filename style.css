@@ -164,3 +164,33 @@ img {
     font-size: 18px;
     font-weight: bold;
 }
+
+.cta {
+    margin: 4em auto;
+    padding: 2em;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta h2 {
+    margin-block-end: 0;
+}
+
+.cta p {
+    margin-block-start: 0;
+    font-size: 18px;
+}
+
+.cta button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 36px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+}
