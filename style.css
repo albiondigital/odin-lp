@@ -41,10 +41,23 @@ a:focus {
     transition: 400ms ease all;
 }
 
+.header,
+.hero,
+.services,
+.quote,
+.cta {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section:first-of-type,
+.section:nth-of-type(2) {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
     padding: 1em;
 }
 
@@ -54,7 +67,6 @@ a:focus {
 }
 
 .hero {
-    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -98,7 +110,7 @@ a:focus {
 }
 
 img {
-    max-width: 50vw;
+    max-width: 50%;
     margin: 20px;
 }
 
@@ -112,7 +124,6 @@ img {
     justify-content: center;
     align-items: center;
     gap: 2em;
-    max-width: 1000px;
     margin: auto;
 }
 
@@ -129,4 +140,13 @@ img {
     width: 100px;
     border: 2px solid blue;
     border-radius: 6px;
+}
+
+.section:has(.quote) {
+    background-color: #e5e7eb;
+    padding: 0 0 3em;
+}
+
+.quote h2 {
+    color: #e5e7eb
 }
