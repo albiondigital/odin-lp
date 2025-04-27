@@ -76,7 +76,7 @@ a:focus {
     padding: 4em 0 6em;
 }
 
-.content {
+.hero .content {
     padding: 40px;
     max-width: 54ch;
 }
@@ -149,4 +149,18 @@ img {
 
 .quote h2 {
     color: #e5e7eb
+}
+
+.quote blockquote {
+    max-width: 50ch;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.quote cite {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
