@@ -1,3 +1,14 @@
+/* 
+Type is Roboto
+background: #1F2937; // dark blue background
+background: #e5e7eb; // gray background
+color: #F9FAF8; // white text
+color: #e5e7eb; // darker white text
+color: #3882f6; // blue button
+color: #1f2937; // black text 
+*/
+
+
 * {
     font-family: Roboto, sans-serif;
 }
@@ -71,4 +82,23 @@ li {
 img {
     max-width: 50vw;
     margin: 20px;
+}
+
+.services h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.services .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.services .blue-border {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 6px;
 }
